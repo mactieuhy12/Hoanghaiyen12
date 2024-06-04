@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SuiteLogin" verbose="1">
+    <test name="Verify Login Page run parallel" parallel="methods">
+        <classes>
+            <class name="com.haiyen.testcases.LoginTest"/>
+        </classes>
+    </test>
+</suite>
